@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html manifest="savegame-editor.appcache">
 <head>
-	<title>Savegame Editor &ndash; Picross 3D: Round 2</title>
+	<title>Editor Salvataggi &ndash; Picross 3D: Round 2</title>
 	<meta http-equiv="content-Type" content="text/html; charset=UTF-8"/>
-	<meta name="description" content="A savegame editor for Picross 3D: Round 2. It can unlock all amiibo puzzles."/>
+	<meta name="description" content="Un editor di salvataggi per Picross 3D: Round 2. Può sbloccare tutti i puzzle amiibo."/>
 	<meta name="keywords" content="html5, savegame, save, editor, hack, exploit, 3ds, picross 3d round 2, unlock, amiibo, puzzles"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
 	<link rel="shortcut icon" href="favicon.png"/>
@@ -17,17 +17,17 @@
 <div id="header">
 	<div id="header-top">
 		<div class="row wrapper">
-			<h1 class="six columns text-left"><img src="favicon.png" /> Savegame Editor <small>for Picross 3D: Round 2</small></h1>
+			<h1 class="six columns text-left"><img src="favicon.png" /> Editor Salvataggi <small>per Picross 3D: Round 2</small></h1>
 			<div class="six columns header-buttons text-right">
-				by <a href="/">Marc Robledo</a>
-				<i class="icon github"></i> <a href="https://github.com/marcrobledo/savegame-editors/tree/master/picross-3d-round-2" target="_blank">See on GitHub</a>
-				<i class="icon heart"></i> <a href="https://www.paypal.me/marcrobledo/5" target="_blank" rel="nofollow">Donate</a>
+				Creato da <a href="/">Marc Robledo</a> Tradotto da <a href="/">Creeperiano99</a>
+				<i class="icon github"></i> <a href="https://github.com/marcrobledo/savegame-editors/tree/master/picross-3d-round-2" target="_blank">Vedi su GitHub</a><br>
+				<i class="icon heart"></i> <a href="https://www.paypal.me/marcrobledo/5" target="_blank" rel="nofollow">Dona al creatore</a> <i class="icon heart"></i> <a href="https://www.paypal.me/Creeperiano99/5" target="_blank" rel="nofollow">Dona a Creeperiano99</a>
 			</div>
 		</div>
 		<div class="hidden row wrapper" id="toolbar">
 			<div class="twelve columns text-center">
-				<button class="close" onclick="closeFile()"><i class="icon close"></i> Close file</button>
-				<button class="colored" onclick="saveChanges()"><i class="icon accept"></i> Save changes</button>
+				<button class="close" onclick="closeFile()"><i class="icon close"></i> Chiudi File</button>
+				<button class="colored" onclick="saveChanges()"><i class="icon accept"></i> Salva le modifiche</button>
 			</div>
 		</div>
 	</div>
@@ -37,10 +37,10 @@
 <!-- THE EDITOR -->
 <div id="the-editor" class="wrapper hidden">
 	<!-- AMIIBO -->
-	<h3 class="orange">Amiibo puzzles</h3>
+	<h3 class="orange">Puzzle Amiibo</h3>
 	<div class="container">
-		You have unlocked <span id="span-amiibocount"></span><small>/9</small> amiibo puzzles.
-		<button onclick="SavegameEditor.unlockAmiiboPuzzles()">Unlock missing amiibo puzzles</button>
+		Hai sbloccato <span id="span-amiibocount"></span><small>/9</small> puzzle Amiibo.
+		<button onclick="SavegameEditor.unlockAmiiboPuzzles()">Sblocca i puzzle Amiibo mancanti</button>
 	</div>
 
 </div>
