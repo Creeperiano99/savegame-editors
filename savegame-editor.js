@@ -175,7 +175,7 @@ window.addEventListener('load', function(){
 	dragZone.className='wrapper';
 	var dragMessage=document.createElement('div');
 	dragMessage.id='dragzone-message';
-	dragMessage.innerHTML='<button class="close" onclick="document.getElementById(\'file-load\').click()"><i class=\"icon disk\"></i> Browse '+getSavegameAllNames()+'</button> or drop it here';
+	dragMessage.innerHTML='<button class="close" onclick="document.getElementById(\'file-load\').click()"><i class=\"icon disk\"></i> Esplora '+getSavegameAllNames()+'</button> o trascinalo qua dentro';
 
 	var inputFile=document.createElement('input');
 	inputFile.type='file';
@@ -189,7 +189,7 @@ window.addEventListener('load', function(){
 	demoMessage.id='demo';
 	demoMessage.href=SavegameEditor.Filename;
 	demoMessage.download=SavegameEditor.Filename;
-	demoMessage.innerHTML='Do you want to try it out? <u>Download an example savegame</u>';
+	demoMessage.innerHTML='Vuoi provarlo? <u>Scarica un salvataggio di esempio</u>';
 
 	dragZone.appendChild(dragMessage);
 	dragZone.appendChild(inputFile);
